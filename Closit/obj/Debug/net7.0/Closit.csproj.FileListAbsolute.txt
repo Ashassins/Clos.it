@@ -1,3 +1,6 @@
+/Users/ashen/Purdue Files/Clos.it/Closit/bin/Debug/net7.0/appsettings.Development.json
+/Users/ashen/Purdue Files/Clos.it/Closit/bin/Debug/net7.0/appsettings.json
+/Users/ashen/Purdue Files/Clos.it/Closit/bin/Debug/net7.0/Closit.staticwebassets.runtime.json
 /Users/ashen/Purdue Files/Clos.it/Closit/bin/Debug/net7.0/Closit
 /Users/ashen/Purdue Files/Clos.it/Closit/bin/Debug/net7.0/Closit.deps.json
 /Users/ashen/Purdue Files/Clos.it/Closit/bin/Debug/net7.0/Closit.runtimeconfig.json
@@ -8,6 +11,19 @@
 /Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/Closit.AssemblyInfoInputs.cache
 /Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/Closit.AssemblyInfo.cs
 /Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/Closit.csproj.CoreCompileInputs.cache
+/Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/Closit.MvcApplicationPartsAssemblyInfo.cache
+/Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/Closit.RazorAssemblyInfo.cache
+/Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/Closit.RazorAssemblyInfo.cs
+/Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/staticwebassets/msbuild.Closit.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/staticwebassets/msbuild.build.Closit.props
+/Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Closit.props
+/Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Closit.props
+/Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/staticwebassets.build.json
+/Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/staticwebassets.development.json
+/Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+/Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/scopedcss/bundle/Closit.styles.css
+/Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/scopedcss/projectbundle/Closit.bundle.scp.css
 /Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/Closit.dll
 /Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/refint/Closit.dll
 /Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/Closit.pdb
