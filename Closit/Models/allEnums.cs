@@ -22,5 +22,8 @@ namespace Closit.Models {
         {
             Male, Female, NonBinary, Boys, Girls
         }
+        public enum Size {
+            XXS, XS, S, M, L, XL, XXL
+        }
     }
 }

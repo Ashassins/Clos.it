@@ -1,5 +1,5 @@
 using Microsoft.Data.SqlClient;
-
+using System;
 namespace sqltest
 {
     class Program
@@ -14,7 +14,6 @@ namespace sqltest
                 builder.UserID = "<your_username>";            
                 builder.Password = "<your_password>";     
                 builder.InitialCatalog = "<your_database>";
-         
                 using (SqlConnection connection = new SqlConnection(builder.ConnectionString))
                 {
                     //Console.WriteLine("\nQuery data example:");
