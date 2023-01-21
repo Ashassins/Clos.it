@@ -9,7 +9,7 @@ namespace Closit.Controllers {
         // [HttpGet ("/catalog")]
         // public async Task<IActionResult> ReadItems() {
         // }
-
+        
         // [HttpPost ("/catalog/insert")]
         // public async Task<IActionResult> InsertItem (Cloth cloth) {
         //     // Run SQL Procedure to save.
