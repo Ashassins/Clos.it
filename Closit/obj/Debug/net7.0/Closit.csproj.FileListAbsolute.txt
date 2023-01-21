@@ -1,0 +1,15 @@
+/Users/ashen/Purdue Files/Clos.it/Closit/bin/Debug/net7.0/Closit
+/Users/ashen/Purdue Files/Clos.it/Closit/bin/Debug/net7.0/Closit.deps.json
+/Users/ashen/Purdue Files/Clos.it/Closit/bin/Debug/net7.0/Closit.runtimeconfig.json
+/Users/ashen/Purdue Files/Clos.it/Closit/bin/Debug/net7.0/Closit.dll
+/Users/ashen/Purdue Files/Clos.it/Closit/bin/Debug/net7.0/Closit.pdb
+/Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/Closit.csproj.AssemblyReference.cache
+/Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/Closit.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/Closit.AssemblyInfoInputs.cache
+/Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/Closit.AssemblyInfo.cs
+/Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/Closit.csproj.CoreCompileInputs.cache
+/Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/Closit.dll
+/Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/refint/Closit.dll
+/Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/Closit.pdb
+/Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/Closit.genruntimeconfig.cache
+/Users/ashen/Purdue Files/Clos.it/Closit/obj/Debug/net7.0/ref/Closit.dll
