@@ -4,7 +4,7 @@ using System.Web;
 using Microsoft.AspNetCore.Mvc; // the one that holds controller
 
 namespace Closit.Controllers {
-    public class ItemController : Controller {
+    public class ClosetController : Controller {
         [HttpPost, ActionName("Create")]
         public void CreateItem() {
 

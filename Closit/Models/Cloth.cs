@@ -11,6 +11,7 @@ namespace Closit.Models
         public DateTime purchaseDate { get; set; }
         public allEnums.Gender gender { get; set; }
         public String brand { get; set; }
+        public allEnums.Size size { get; set; }
         public String tags { get; set; }
     }
 }
