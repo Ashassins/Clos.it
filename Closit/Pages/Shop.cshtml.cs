@@ -1,18 +1,19 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Closit.Pages{
-    public class BrowseModel : PageModel
+namespace Closit.Pages {
+    public class ShopModel : PageModel
     {
-        private readonly ILogger<PrivacyModel> _logger;
+        private readonly ILogger<ShopModel> _logger;
 
-        public BrowseModel(ILogger<PrivacyModel> logger)
+        public ShopModel(ILogger<ShopModel> logger)
         {
             _logger = logger;
         }
 
         public void OnGet()
         {
+
         }
     }
 }
