@@ -4,15 +4,15 @@ namespace Closit.Models {
         {
             White, Yellow, Blue, Red, Green,
             Black, Brown, Teal, Silver, Purple,
-            Gold, Gray, Orange, RoseGold, Pink
+            Gold, Gray, Orange, RoseGold, Pink, Khaki
         }
         public enum Season
         {
-            Spring, Summer, Autumn, Winter, All
+            Spring, Summer, Fall, Winter, All
         }
         public enum ClothingType
         {
-            Shirt, Pant, Accessory, Hat
+            Shirts, Pants, Jackets, Skirts, Accessories, Hats, Others
         }
         public enum ItemType
         {
