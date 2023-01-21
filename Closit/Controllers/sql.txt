@@ -1,0 +1,43 @@
+CREATE TABLE CLOSET (
+    REAL_ID int NOT NULL,
+    LISTING_NAME VARCHAR(70),
+    GIVEN_NAME VARCHAR(5),
+    COLOR_LIST VARCHAR(50),
+    SEASON VARCHAR(10),
+    PURCHASE_DATE DATE,
+    GENDER VARCHAR(10),
+    BRAND VARCHAR(20),
+    TAGS VARCHAR(10),
+    CLOTHING_TYPE VARCHAR(10),
+    ITEM_TYPE VARCHAR(10),
+    WEARS int,
+    PRIMARY KEY (REAL_ID)
+);
+BEGIN;
+
+INSERT INTO CLOSET VALUES(1, 'ULTRA HIGH-RISE BLACK SUPER SKINNY JEANS', NULL, 'Black', 'Fall', '2023-01-01', 'Female', 'Hollister', NULL, 'Pants', 'Clothing', 8);
+
+INSERT INTO CLOSET VALUES(2, 'ADJUSTABLE RISE BAGGY PARACHUTE PANTS', NULL, 'Khaki', 'Fall', '2023-01-01', 'Female', 'Hollister', NULL, 'Pants', 'Clothing', 10);
+
+INSERT INTO CLOSET VALUES(3, 'HIGHEST RISE DARK WASH CARGO BOOT JEANS', NULL, 'Black', 'Fall', '2023-01-01', 'Female', 'Hollister', NULL, 'Pants', 'Clothing', 5);
+
+INSERT INTO CLOSET VALUES(4, 'HIGH-RISE MEDIUM WASH JEAN LEGGINGS', NULL, 'Blue', 'Summer', '2023-01-01', 'Female', 'Hollister', NULL, 'Pants', 'Clothing', 20);
+
+INSERT INTO CLOSET VALUES(5, 'OVERSIZED SHIRT JACKET', NULL, 'Black, White', 'Fall', '2023-01-01', 'Female', 'Hollister', NULL, 'Jacket', 'Clothing', 15);
+
+INSERT INTO CLOSET VALUES(6, 'Wonder Textured V-Neck Sweatshirt', NULL, 'Gray', 'Fall', '2023-01-01','Female', 'American Eagle', NULL, 'Jacket', 'Clothing', 8);
+
+INSERT INTO CLOSET VALUES(7, 'Wide Rib Crew Sweater', NULL, 'White', 'Fall', '2023-01-01', 'Female', 'American Eagle', NULL, 'Jacket', 'Clothing', 4);
+
+INSERT INTO CLOSET VALUES(8, 'Graphic Oversized Boyfriend T-Shirt', NULL, 'Gray', 'Summer', '2023-01-01', 'Female', 'American Eagle', NULL, 'Shirt', 'Clothing', 13);
+
+INSERT INTO CLOSET VALUES(9, 'OVERSIZED PRINT GRAPHIC TEE', NULL, 'Gray', 'Summer', '2023-01-01', 'Female', 'Hollister', NULL, 'Shirt', 'Clothing', 10);
+
+INSERT INTO CLOSET VALUES(10, 'Ruffled Flock Dot Lace-Front Crop Top', NULL, 'White', 'Summer', '2023-01-01', 'Female', 'Aeropostale', NULL, 'Shirt', 'Clothing', 2);
+
+INSERT INTO CLOSET VALUES(11, 'ULTRA HIGH-RISE TIERED FLORAL EMBROIDERY MINI SKIRT', NULL, 'White', 'Summer', '2023-01-01', 'Female', 'Hollister', NULL, 'Shirt', 'Clothing', 1);
+
+INSERT INTO CLOSET VALUES(12, 'Womens Oakmont TR', NULL, 'Pink, Blue, Black, White', 'All', '2023-01-01', 'Female', 'FILA', NULL, 'Other', 'Shoe', 15);
+
+INSERT INTO CLOSET VALUES(13, 'Nike Air Max 90 Futura', NULL, 'Black', 'All', '2023-01-01', 'Female', 'Nike', NULL, 'Other', 'Shoe', 15);
+COMMIT;

@@ -1,0 +1,33 @@
+@page
+@model ShopModel
+@{
+    ViewData["Title"] = "Shop, Curated for your tastes";
+}
+<div class="container">
+    <div class="row ">
+        <h4 class="display-4">Your Shop</h4>
+    </div>
+    &nbsp;  
+    <div class=" row" style="margin-left: 0px; margin-right:0px">
+        <div class="col-md-3">
+            <div class="row" style="padding-right: 0px"> 
+                    <h5 class="card-title">Filters</h5>
+                    <hr>
+                    <div class="row"> 
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Go</button>
+                        </form>
+                    </div>
+                </div>
+                &nbsp;
+                <div id="selections" class="row ">
+                    <h5 class="card-title">Highlights</h5>
+                    <hr>
+                </div>
+        </div>
+        <div class="col-md-9">
+            <h4>Your Shop</h4>
+        </div>
+    </div>
+    </div>

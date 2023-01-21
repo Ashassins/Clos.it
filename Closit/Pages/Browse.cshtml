@@ -4,31 +4,33 @@
     ViewData["Title"] = "Browse your Closit";
 }
 <body>
-    
-    <div class="row container">
-        <h1 style="margin-top: .5rem">@ViewData["Title"]</h1>   
-    <hr>
-    </div>
-    <div class="row"> 
-        <div id="filters" class="col-md-4 container">
-            <div class="row container" style="padding-right: 0px"> 
-                <h5 class="card-title">Filters</h5>
-                <hr>
-                <div class="row"> 
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Go</button>
-                    </form>
+    <div class="container">
+        <div class="row">
+            <h1 style="margin-top: .5rem">@ViewData["Title"]</h1>   
+        <hr>
+        </div>
+        <div class="row"> 
+            <div id="filters" class="col-md-4 container">
+                <div class="row container" style="padding-right: 0px"> 
+                    <h5 class="card-title">Filters</h5>
+                    <hr>
+                    <div class="row"> 
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Go</button>
+                        </form>
+                    </div>
+                </div>
+                &nbsp;
+                <div id="selections" class="row container">
+                    <h5 class="card-title">Selections</h5>
+                    <hr>
                 </div>
             </div>
-            &nbsp;
-            <div id="selections" class="row container">
-                <h5 class="card-title">Selections</h5>
-                <hr>
+            <div class="col-md-8 container">
+                Scroll through your closet
             </div>
         </div>
-        <div class="col-md-8 container">
-            Scroll through your closet
-        </div>
+            
     </div>
 </body>
