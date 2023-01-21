@@ -72,5 +72,27 @@ namespace Closit.Controllers {
         //     // int deleteId = cloth.getUUID();
         //     // Run SQL Procedure to delete
         // }
+        public void deleteItem(int realID) {
+            try 
+            {
+                SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
+                populateBuilder(builder);
+                using(SqlConnection connection = new SqlConnection(builder.ConnectionString))
+                {
+                    connection.Open();
+                    String tableName = "Closet";
+                    String sql = "DELETE FROM " + tableName + "WHERE REALID = '" + realID.ToString() + "'";
+                    SqlDataAdapter adapter = new SqlDataAdapter();
+                     using(adapter.InsertCommand = new SqlCommand(sql, connection))
+                    {
+                        using(adapter.InsertCommand.ExecuteNonQuery());
+                    }
+                }
+            }
+            catch (SqlException e) 
+            {
+                throw e;
+            }
+        }
     }
 }
