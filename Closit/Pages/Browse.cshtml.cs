@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Closit.Pages;
 
-public class PrivacyModel : PageModel
+public class BrowseModel : PageModel
 {
     private readonly ILogger<PrivacyModel> _logger;
 
-    public PrivacyModel(ILogger<PrivacyModel> logger)
+    public BrowseModel(ILogger<PrivacyModel> logger)
     {
         _logger = logger;
     }
@@ -16,3 +16,4 @@ public class PrivacyModel : PageModel
     {
     }
 }
+
