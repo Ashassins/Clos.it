@@ -1,8 +1,6 @@
 using System;
 
-
-namespace Closit.Models {
-    
+namespace Closit.Models {  
     public class Outfit
     {
         String UUID;
@@ -11,7 +9,7 @@ namespace Closit.Models {
         allEnums.Color color;
         allEnums.Season season;
         //long createdTime; // YearMonthDay
-        String time;
+        String created;
         Cloth[] cloth_list;
     } 
 }
