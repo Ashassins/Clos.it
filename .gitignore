@@ -199,3 +199,5 @@ FakesAssemblies/
 
 #Ignore JSON
 *.json
+
+.DS_Store
