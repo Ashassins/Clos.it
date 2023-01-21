@@ -11,5 +11,6 @@ namespace Closit.Models {
         //long createdTime; // YearMonthDay
         String created;
         Cloth[] cloth_list;
+        int wears;
     } 
 }
