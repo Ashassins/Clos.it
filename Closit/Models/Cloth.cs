@@ -4,6 +4,7 @@ namespace Closit.Models
 {
     public class Cloth {
         public String UUID;
+        public int realID {get;}
         public String listingName {get; set; }
         public String givenName {get; set; }
         public allEnums.Color[] colorList {get; set; }
@@ -12,6 +13,9 @@ namespace Closit.Models
         public allEnums.Gender gender {get; set; }
         public String brand {get; set; }
         public String tags {get; set; }
+        
+        // if the color is light then score is high, otherwise high
+
     }
 
 }
