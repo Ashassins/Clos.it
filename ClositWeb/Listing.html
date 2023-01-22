@@ -1,0 +1,30 @@
+@page
+@model ListingModel
+@{
+    ViewData["Title"] = "Catalog Listing";
+}
+<div class="container">
+    <div class="container">
+        <div class="row">
+            <h1 style="margin-top: .5rem">@ViewData["Title"]</h1> 
+            <hr>
+        </div>
+
+        <div class=" row" style="margin-left: 0px; margin-right:0px">
+            <div class="col-md-8">
+                <img>Placeholder</i>
+            </div>
+            <div class="col-md-4">
+                <button class="btn btn-outline-primary" style="display:inline" type="submit">Add to my Clos.it</button> 
+                <h3>{{cloth.name}}</h3>
+                <p> Lorem Ipsum </p>
+                Here could be a table of info about a given article of clothing
+                <br>
+                <hr>
+                size picker <br>
+                {{cloth.brand}}
+                {{cloth.colors}}
+                {{cloth.season}}
+            </div>
+        </div>
+    </div>

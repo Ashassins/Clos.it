@@ -1,0 +1,41 @@
+CREATE TABLE CATALOG (
+    REAL_ID int NOT NULL,
+    LISTING_NAME VARCHAR(70),
+    COLOR_LIST VARCHAR(50),
+    SEASON VARCHAR(10),
+    GENDER VARCHAR(10),
+    BRAND VARCHAR(20),
+    TAGS VARCHAR(250),
+    CLOTHING_TYPE VARCHAR(10),
+    ITEM_TYPE VARCHAR(10),
+    PURCHASES int,
+    PRIMARY KEY (REAL_ID)
+);
+BEGIN;
+
+INSERT INTO CATALOG VALUES(1, 'ULTRA HIGH-RISE BLACK SUPER SKINNY JEANS', 'Black', 'Fall', 'Female', 'Hollister', NULL, 'Pants', 'Clothing', 8);
+
+INSERT INTO CATALOG VALUES(2, 'ADJUSTABLE RISE BAGGY PARACHUTE PANTS', 'Khaki', 'Fall', 'Female', 'Hollister', NULL, 'Pants', 'Clothing', 10);
+
+INSERT INTO CATALOG VALUES(3, 'HIGHEST RISE DARK WASH CARGO BOOT JEANS', 'Black', 'Fall', 'Female', 'Hollister', NULL, 'Pants', 'Clothing', 5);
+
+INSERT INTO CATALOG VALUES(4, 'HIGH-RISE MEDIUM WASH JEAN LEGGINGS', 'Blue', 'Summer', 'Female', 'Hollister', NULL, 'Pants', 'Clothing', 20);
+
+INSERT INTO CATALOG VALUES(5, 'OVERSIZED SHIRT JACKET', 'Black, White', 'Fall', 'Female', 'Hollister', NULL, 'Jacket', 'Clothing', 15);
+
+INSERT INTO CATALOG VALUES(6, 'Wonder Textured V-Neck Sweatshirt', 'Gray', 'Fall','Female', 'American Eagle', NULL, 'Jacket', 'Clothing', 8);
+
+INSERT INTO CATALOG VALUES(7, 'Wide Rib Crew Sweater', 'White', 'Fall', 'Female', 'American Eagle', NULL, 'Jacket', 'Clothing', 4);
+
+INSERT INTO CATALOG VALUES(8, 'Graphic Oversized Boyfriend T-Shirt', 'Gray', 'Summer', 'Female', 'American Eagle', NULL, 'Shirt', 'Clothing', 13);
+
+INSERT INTO CATALOG VALUES(9, 'OVERSIZED PRINT GRAPHIC TEE', 'Gray', 'Summer', 'Female', 'Hollister', NULL, 'Shirt', 'Clothing', 10);
+
+INSERT INTO CATALOG VALUES(10, 'Ruffled Flock Dot Lace-Front Crop Top', 'White', 'Summer', 'Female', 'Aeropostale', NULL, 'Shirt', 'Clothing', 2);
+
+INSERT INTO CATALOG VALUES(11, 'ULTRA HIGH-RISE TIERED FLORAL EMBROIDERY MINI SKIRT', 'White', 'Summer', 'Female', 'Hollister', NULL, 'Shirt', 'Clothing', 1);
+
+INSERT INTO CATALOG VALUES(12, 'Womens Oakmont TR', 'Pink, Blue, Black, White', 'All', 'Female', 'FILA', NULL, 'Other', 'Shoe', 15);
+
+INSERT INTO CATALOG VALUES(13, 'Nike Air Max 90 Futura', 'Black', 'All', 'Female', 'Nike', NULL, 'Other', 'Shoe', 15);
+COMMIT;
