@@ -1,0 +1,42 @@
+@page
+@model ListingModel
+@{
+    ViewData["Title"] = "Catalog Listing";
+}
+<body>
+    <div class="container">
+        <div class="container">
+            <div class="row">
+                <h1 style="margin-top: .5rem">@ViewData["Title"]</h1> 
+                <hr>
+            </div>
+
+            <div class="row" style="margin-left: 0px; margin-right:0px">
+                <div class="container col-md-8" style="object-fit:cover;">
+                    <img src="images/adjustable.jpg" class="container-fluid" style="object-fit:cover"></i>
+                </div>
+                <div class="container col-md-4">
+                    <button class="btn btn-outline-primary" style="display:inline" type="submit">Add to my Clos.it</button> 
+                    <hr>
+                    <h3>Black Cargo Pants</h3>
+                    Brand: <a href="https://www.hollisterco.com/shop/us">Hollister</a>
+                    <br>
+                    Purchased by: 158790 Users <br>
+                    Released: 2017 <br>
+                    Seasons: Fall, Winter, Spring <br>
+                    <hr>
+                    Tags: 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tags-fill" viewBox="0 0 16 16">
+                        <path d="M2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2zm3.5 4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                        <path d="M1.293 7.793A1 1 0 0 1 1 7.086V2a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l.043-.043-7.457-7.457z"/>
+                    </svg> <br>
+                    <p>Black, Pants, Baggy, Comfy</p>
+                    <hr>
+                    Also Worn by:
+                    <br>
+                    Meryl Streep, Obama
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

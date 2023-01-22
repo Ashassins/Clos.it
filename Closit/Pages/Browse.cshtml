@@ -1,8 +1,8 @@
 ﻿@page
 @model BrowseModel
 @{
-    ViewData["Title"] = "Browse your Closit";
-}
+    ViewData["Title"] = "Browse your Closet";
+}   
 <body>
     <div class="container">
         <div class="row">
@@ -27,107 +27,89 @@
                     <hr>
                 </div>
             </div>
-            <div class="col-md-8 g-3"> 
-                <script>
-                    [].forEach.call(document.querySelectorAll('.col'), function (el) {
-                        el.style.visibility = 'hidden';
-                    });
-                    
-                    @* [].forEach.call(document.querySelectorAll('.col'), function (el) {
-                        el.style.visibility = 'visible';
-                    }); *@
-                </script>    
+            <div class="col-md-8 g-3">   
                 <div class="row">
-                    <div class="col-4" style="margin-bottom: 1.5rem; "> @*Do visibility at this col-4 level*@
-                        <div class="card shadow-sm" style="width:100%;height:100%; ">
-                            <img src="images/11.jpg" style="max-width:230px; max-height:290px;">
+                    <div class="col-4 container" style="margin-bottom: 1.5rem;"> 
+                        <div class="card container-fluid shadow-sm" style="object-fit:scale-down; padding-right: 0px; padding-left: 0px;">
+                            <img src="images/aerieWonder.jpg" >
                             <div class="card-body">
                                 <p class="card-text">
-                                    "These should hold the outfit name"
-                                </p>
-                            </div>
-                        </div>    
-                    </div>
-                    <div class="col-4" style="margin-bottom: 1.5rem;"> 
-                        <div class="card shadow-sm" style="width:100%;height:100%">
-                            <img src="images/2.jpg" style="max-width:230px; max-height:290px;">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    "to-do should be reading from the database"
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4" style="margin-bottom: 1.5rem;"> 
-                        <div class="card shadow-sm" style="width:100%;height:100%">
-                            <img src="images/8.jpg" style="max-width:230px; max-height:290px;">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    "to-do should be reading from the database"
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4" style="margin-bottom: 1.5rem;"> 
-                        <div class="card shadow-sm" style="width:100%;height:100%">
-                            <img src="images/7.jpg" style="max-width:230px; max-height:290px;">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    "to-do should be reading from the database"
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4" style="margin-bottom: 1.5rem;"> 
-                        <div class="card shadow-sm" style="width:100%;height:100%">
-                            <img src="images/4.jpg" style="max-width:230px; max-height:290px;">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    "to-do should be reading from the database"
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4" style="margin-bottom: 1.5rem;"> 
-                        <div class="card shadow-sm" style="width:100%;height:100%">
-                            <img src="images/3.jpg" style="max-width:230px; max-height:290px;">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    "to-do should be reading from the database"
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4" style="margin-bottom: 1.5rem;"> 
-                        <div class="card shadow-sm" style="width:100%;height:100%">
-                            <img src="images/12.jpg" style="max-width:230px; max-height:290px;">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    "to-do should be reading from the database"
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4" style="margin-bottom: 1.5rem;"> 
-                        <div class="card shadow-sm" style="width:100%;height:100%">
-                            <img src="images/13.jpg" style="max-width:230px; max-height:290px;">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    "to-do should be reading from the database"
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4" style="margin-bottom: 1.5rem;"> 
-                        <div class="card shadow-sm" style="width:100%;height:100%">
-                            <img src="images/5.jpg" style="max-width:230px; max-height:290px;">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    "to-do should be reading from the database"
+                                    Wonder Knit Crew
                                 </p>
                             </div>
                         </div>
                     </div> 
+                    <div class="col-4 container" style="margin-bottom: 1.5rem;"> 
+                        <div class="card container-fluid shadow-sm" style="object-fit:scale-down; padding-right: 0px; padding-left: 0px;">
+                            <img src="images/shoes.jpg" >
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Oakmont TR: Pink/Mint
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 container" style="margin-bottom: 1.5rem;"> 
+                        <div class="card container-fluid shadow-sm" style="object-fit:scale-down; padding-right: 0px; padding-left: 0px;">
+                            <img src="images/highestRise.jpg" >
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Highest Rise Blue Jeans
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 container" style="margin-bottom: 1.5rem;"> 
+                        <div class="card container-fluid shadow-sm" style="object-fit:scale-down; padding-right: 0px; padding-left: 0px;">
+                            @* <a href="./listing" class="stretched-link"></a> *@
+                            <img src="images/oversize.jpg" >
+                            <div class="card-body">
+                                <p class="card-text">
+                                    "Oversized Plaid Jacket"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 container" style="margin-bottom: 1.5rem;"> 
+                        <div class="card container-fluid shadow-sm" style="object-fit:scale-down; padding-right: 0px; padding-left: 0px;">
+                            <img src="images/aerieGraphic.jpg" >
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Love This Graphic Tee
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 container" style="margin-bottom: 1.5rem;"> 
+                        <div class="card container-fluid shadow-sm" style="object-fit:scale-down; padding-right: 0px; padding-left: 0px;">
+                            <img src="images/aerieWide.jpg" >
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Chunky White Sweater
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 container" style="margin-bottom: 1.5rem;"> 
+                        <div class="card container-fluid shadow-sm" style="object-fit:scale-down; padding-right: 0px; padding-left: 0px;">
+                            <img src="images/highRise.jpg" >
+                            <div class="card-body">
+                                <p class="card-text">
+                                    High Rise Blue Jeans
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 container" style="margin-bottom: 1.5rem;"> 
+                        <div class="card container-fluid shadow-sm" style="object-fit:scale-down; padding-right: 0px; padding-left: 0px;">
+                            <img src="images/nikeAir.jpg" >
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Black Nike Airs
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
