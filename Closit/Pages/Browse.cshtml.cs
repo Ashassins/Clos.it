@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Closit.Pages{
+namespace Closit.Pages {
     public class BrowseModel : PageModel
     {
         private readonly ILogger<PrivacyModel> _logger;

@@ -1,8 +1,4 @@
-@page
-@model BrowseModel
-@{
-    ViewData["Title"] = "Browse your Shop";
-}
+
 <body>
     <div class="container">
         <div class="row">
@@ -27,7 +23,16 @@
                     <hr>
                 </div>
             </div>
-            <div class="col-md-8 g-3">   
+            <div class="col-md-8 g-3"> 
+                <!-- <script>
+                    [].forEach.call(document.querySelectorAll('.col'), function (el) {
+                        el.style.visibility = 'hidden';
+                    });
+                    
+                    [].forEach.call(document.querySelectorAll('.col'), function (el) {
+                        el.style.visibility = 'visible';
+                    }); 
+                </script>     -->
                 <div class="row">
                     <div class="col-4" style="margin-bottom: 1.5rem; "> @*Do visibility at this col-4 level*@
                         <div class="card shadow-sm" style="width:100%;height:100%; ">
@@ -41,7 +46,6 @@
                     </div>
                     <div class="col-4" style="margin-bottom: 1.5rem;"> 
                         <div class="card shadow-sm" style="width:100%;height:100%">
-                            <a id="card3" href="./listing" class="stretched-link"></a>
                             <img src="images/adjustable.jpg" style="max-width:230px; max-height:290px;">
                             <div class="card-body">
                                 <p class="card-text">

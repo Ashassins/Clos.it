@@ -1,0 +1,105 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<!DOCTYPE html>
+<html>
+<div class="jumbotron jumbotron-fluid" style="background-image: url('images/unsplash-alyssa.jpg');  background-size:cover; background-color: gray; color: white;">
+    <div class="container text-center" style="padding-top: 5rem; padding-bottom: 5rem;">
+        <h1 class="display-4">Welcome to your Clos.it</h1>
+        <p class="lead">The digital closet of your dreams</p>
+    </div>
+</div>
+&nbsp;  
+<div class="container row" style="padding-right:0px; margin-left: 2rem; margin-right:2rem">
+    <div class="col-md-6">
+        <h4>Blog</h4>
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" >
+            @* style="padding:1.25rem;" *@
+            <div class="col p-4 d-flex flex-column position-static">
+                <h5>Aquarius Season is Here!</h5>
+                <a href="https://www.refinery29.com/en-us/2023/01/11261314/aquarius-season-january-2023-meaning" class="stretched-link"></a>
+                <p style="margin-bottom:0px;">"Aquarius season is the time of year filled with individuality and the feeling of being limitless and capable of anything — it's safe to say we're looking forward to the immaculate vibes the next month will bring."
+                    <strong>Read more at Refinery29!</strong>
+                </p>
+            </div>
+            <!-- <div class="col-auto d-none d-lg-block" style="block!important;" >
+                <i width="100%" height="100%" style="background-image: url('images/aquarius.jpg);" ></i>
+            </div>  -->
+        </div>
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" >
+            <div class="col p-4 d-flex flex-column position-static">
+                <h5>New Jelly Nail Polishes you'll Love!</h5>
+                <a href="https://www.cirquecolors.com/" class="stretched-link"></a>
+                <p style="margin-bottom:0px;">"The indie, WOC-owned nail polish does it again with it's Falling in Lust Collection. There’s nothing too polished about these six nostalgic nail polishes – wear them with smudged eyeliner, a distressed top, shorts with stockings, and worn-in sneakers."
+                    <strong>Browse at Cirque Colors!</strong>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <h4>Curated Looks</h4>
+            <div id="carouselExampleIndicators" class="carousel slide container" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active" id=1>
+                    <img class="d-block w-100" src="images/racingshirt.jpg" >
+                </div>
+                <div class="carousel-item active" id=2>
+                    <img class="d-block w-100" src="images/adjustable.jpg" >
+                </div>
+                <div class="carousel-item active" id=3>
+                    <img class="d-block w-100" src="images/oversize.jpg">
+                </div>
+                <div class="carousel-item active" id=4>
+                    <img class="d-block w-100" src="images/shoes.jpg">
+                </div>
+                <div class="carousel-item active" id=5>
+                    <img class="d-block w-100" src="images/aerieWide.jpg">
+                </div>
+            </div>
+            
+            <div onclick="side_slide(-1)" class="slide left">
+                <a class="carousel-control-prev" href="#carouselExampleIndicatorsLeft" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only"></span>
+                </a>
+            </div>
+            <div onclick="side_slide(1)" class="slide right">
+                <a class="carousel-control-next" href="#carouselExampleIndicatorsRight" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only"></span>
+                </a> 
+            </div>
+            </div>
+            <script>
+                var indexVal = 1; 
+                function side_slide(e) {
+                    indexVal+= e;
+                    if (indexVal > 5) {
+                        indexVal = 1;
+                    }
+                    if (indexVal < 1) {
+                        indexVal = 5;
+                    }
+                    for (let i = 1; i < 6; i++) {
+                        if (i == indexVal) {
+                            document.getElementById(i).className = "carousel-item active";
+                        }
+                        else {
+                            document.getElementById(i).className = "carousel-item";
+                        }
+                    }
+                }
+            </script>
+            
+    </div>
+</div>
+</html>
