@@ -7,7 +7,7 @@ public class CloestRepository
             builder.Password = "oyY1nkAuz5-YaJ4GpX6UhQ";     
             builder.InitialCatalog = "defaultdb";
     }
-    public void getOneCloth(int realID) {
+    public void extractOneCloth(int realID) {
         try
         {   
             SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
@@ -57,5 +57,39 @@ public class CloestRepository
             throw e;
         }
     }
+
+    public Cloth selectFromCatalog(int real_id) {
+        try
+        {   
+            SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
+            populateBuilder(builder);
+            using(SqlConnection connection = new SqlConnection(builder.ConnectionString)) {
+                connection.Open();
+                String catalogName = "Catalog";
+                String sql = "SELECT * FROM " + catalogName 
+                                + " WHERE real_id = " + realID.ToString();
+                SqlCommand command = new SqlCommand(sql, connection);
+                Cloth[] tempInput = {};
+                using (var reader = command.ExecuteReader()) {
+                    reader.Read();
+                    reader.GetValues(tempInput);
+                    reader.Close();
+                }
+                return tempInput[0];
+            }
+        }
+        catch (SqlException e) {
+            throw e;
+        }    
+    }
+
+
+    /*
+    public void SendToFront(Cloth cloth) {
+        System.Web.Serialization.JavaScriptSerializer oSerializer = 
+            new System.Web.Script.Serialization.JavaScriptSerializer();
+        String sJson = oSerializer.Serialize(cloth);
+    }
+    */
 
 }
