@@ -3,8 +3,8 @@ using System;
 namespace Closit.Models
 {
     public class Cloth {
-        public String UUID;
-        public int realID {get;}
+        public String UUID { get; }
+        public int realID { get; set; }
         public String listingName {get; set; }
         public String givenName {get; set; }
         public allEnums.Color[] colorList {get; set; }
@@ -14,6 +14,8 @@ namespace Closit.Models
         public String brand {get; set; }
         public String tags {get; set; }
         public allEnums.Size size { get; set; }
+        public allEnums.ClothingType clothingType { get; set; }
+        public allEnums.ItemType itemType { get; set; }
         public int wears { get; set;}
     }
 }

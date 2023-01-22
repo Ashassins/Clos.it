@@ -1,16 +1,17 @@
 @page
-@model ShopModel
+@model BrowseModel
 @{
-    ViewData["Title"] = "Shop, Curated for your tastes";
+    ViewData["Title"] = "Browse your Shop";
 }
-<div class="container">
-    <div class="row ">
-        <h4 class="display-4">Your Shop</h4>
-    </div>
-    &nbsp;  
-    <div class=" row" style="margin-left: 0px; margin-right:0px">
-        <div class="col-md-3">
-            <div class="row" style="padding-right: 0px"> 
+<body>
+    <div class="container">
+        <div class="row">
+            <h1 style="margin-top: .5rem">@ViewData["Title"]</h1>   
+        <hr>
+        </div>
+        <div class="row"> 
+            <div id="filters" class="col-md-4 container">
+                <div class="row container" style="padding-right: 0px"> 
                     <h5 class="card-title">Filters</h5>
                     <hr>
                     <div class="row"> 
@@ -21,13 +22,106 @@
                     </div>
                 </div>
                 &nbsp;
-                <div id="selections" class="row ">
-                    <h5 class="card-title">Highlights</h5>
+                <div id="selections" class="row container">
+                    <h5 class="card-title">Selections</h5>
                     <hr>
                 </div>
-        </div>
-        <div class="col-md-9">
-            <h4>Your Shop</h4>
+            </div>
+            <div class="col-md-8 g-3">   
+                <div class="row">
+                    <div class="col-4" style="margin-bottom: 1.5rem; "> @*Do visibility at this col-4 level*@
+                        <div class="card shadow-sm" style="width:100%;height:100%; ">
+                            <img src="images/skirt.jpg" style="max-width:230px; max-height:290px;">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    "These should hold the outfit name"
+                                </p>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="col-4" style="margin-bottom: 1.5rem;"> 
+                        <div class="card shadow-sm" style="width:100%;height:100%">
+                            <a id="card3" href="./listing" class="stretched-link"></a>
+                            <img src="images/adjustable.jpg" style="max-width:230px; max-height:290px;">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    "to-do should be reading from the database"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4" style="margin-bottom: 1.5rem;"> 
+                        <div class="card shadow-sm" style="width:100%;height:100%">
+                            <img src="images/aerieGraphic.jpg" style="max-width:230px; max-height:290px;">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    "to-do should be reading from the database"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4" style="margin-bottom: 1.5rem;"> 
+                        <div class="card shadow-sm" style="width:100%;height:100%">
+                            <img src="images/aerieWide.jpg" style="max-width:230px; max-height:290px;">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    "to-do should be reading from the database"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4" style="margin-bottom: 1.5rem;"> 
+                        <div class="card shadow-sm" style="width:100%;height:100%">
+                            <img src="images/highRise.jpg" style="max-width:230px; max-height:290px;">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    "to-do should be reading from the database"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4" style="margin-bottom: 1.5rem;"> 
+                        <div class="card shadow-sm" style="width:100%;height:100%">
+                            <img src="images/highestRise.jpg" style="max-width:230px; max-height:290px;">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    "to-do should be reading from the database"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4" style="margin-bottom: 1.5rem;"> 
+                        <div class="card shadow-sm" style="width:100%;height:100%">
+                            <img src="images/shoes.jpg" style="max-width:230px; max-height:290px;">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    "to-do should be reading from the database"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4" style="margin-bottom: 1.5rem;"> 
+                        <div class="card shadow-sm" style="width:100%;height:100%">
+                            <img src="images/nikeAir.jpg" style="max-width:230px; max-height:290px;">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    "to-do should be reading from the database"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4" style="margin-bottom: 1.5rem;"> 
+                        <div class="card shadow-sm" style="width:100%;height:100%">
+                            <img src="images/oversize.jpg" style="max-width:230px; max-height:290px;">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    "to-do should be reading from the database"
+                                </p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
         </div>
     </div>
-    </div>
+</body>
